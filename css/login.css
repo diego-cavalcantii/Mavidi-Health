@@ -1,0 +1,115 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    /* border: 1px solid black; */
+}
+
+.wrappen {
+    height: 70vh;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 16px; 
+    flex-direction: column;
+    gap: 2.5rem;
+}
+
+.margin-login {
+    margin-top: 150px;
+}
+
+.box-login {
+    width: 520px;
+    height: 207px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+    border-radius: 30px;
+    border: 4px solid #000;
+    background: #EEE;
+    box-shadow: 0px 8px 10px 1px rgba(0, 0, 0, 0.30);
+}
+
+label {
+    display: block;
+    color: #7A7A7A;
+    font-family: Inter;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+input {
+    width: 316px;
+    height: 40px;
+    border-radius: 10px;
+    background: rgba(238, 238, 238, 0.93);
+}
+
+.input-medico {
+    border: 4px solid #5654B4;
+}
+.input-paciente {
+    border: 4px solid #F49E00;
+}
+
+.input-container {
+    position: relative;
+}
+
+.input-container label {
+    position: absolute;
+    top: 50%;
+    left: 10px; /* Ajuste conforme necessário */
+    transform: translateY(-50%);
+    pointer-events: none;
+    transition: opacity 0.3s ease-out; /* Adiciona transição para suavizar o desaparecimento */
+    opacity: 1;
+}
+
+.input-container input:focus + label {
+    opacity: 0;
+}
+
+.input-container input:not(:focus) {
+    padding-left: 150px; /* Ajuste conforme necessário para dar espaço ao label */
+}
+
+.input-container input:not(:focus) + label {
+    opacity: 1;
+}
+
+.input-container input {
+    box-sizing: border-box;
+}
+
+.enviar {
+    width: 520px;
+    height: 50px;
+    border-radius: 10px;
+    background: rgba(238, 238, 238, 0.93);
+}
+
+.enviar a {
+    text-decoration: none;
+    color: #000;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.blue {
+    border: 5px solid #5654B4;
+}
+
+.orange {
+    border: 5px solid #F49E00;
+}
+
+
+
+
