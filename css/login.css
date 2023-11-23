@@ -6,32 +6,34 @@
 }
 
 .wrappen {
-    height: 70vh;
-    margin: 0;
+    height: 60vh;
+    /* width: 90%; */
+    margin: 0 auto;
     display: flex;
     justify-content: center;
     align-items: center;
     font-size: 16px; 
-    flex-direction: column;
-    gap: 2.5rem;
+    flex-wrap: wrap;
+    gap: 1.5rem;
 }
 
 .margin-login {
-    margin-top: 150px;
+    margin-top: 60px;
+    /* margin-bottom: 40px; */
 }
 
 .box-login {
-    width: 520px;
-    height: 207px;
+    /* width: 520px; */
+    /* height: 207px; */
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     gap: 2rem;
-    border-radius: 30px;
-    border: 4px solid #000;
-    background: #EEE;
-    box-shadow: 0px 8px 10px 1px rgba(0, 0, 0, 0.30);
+    /* border-radius: 30px; */
+    /* border: 4px solid #000; */
+    /* background: #EEE; */
+    /* box-shadow: 0px 8px 10px 1px rgba(0, 0, 0, 0.30); */
 }
 
 label {
@@ -89,25 +91,25 @@ input {
 }
 
 .enviar {
-    width: 520px;
-    height: 50px;
+    width: 150px;
+    height: 40px;
     border-radius: 10px;
-    background: rgba(238, 238, 238, 0.93);
+    border: none;
 }
 
 .enviar a {
     text-decoration: none;
-    color: #000;
-    font-size: 20px;
+    color: white;
+    font-size: 17px;
     font-weight: 700;
 }
 
 .blue {
-    border: 5px solid #5654B4;
+    background-color:  #5654B4;
 }
 
 .orange {
-    border: 5px solid #F49E00;
+    background-color: #F49E00;
 }
 
 
