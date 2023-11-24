@@ -11,12 +11,13 @@ body {
     font-family: Inter;
     height: 100%;
     overflow-x: hidden;
+    /* overflow-y: hidden; */
 
 }
 
 header {
     padding: 10px 0;
-    background-color: white;
+    /* background-color: white; */
 }
 
 img {
@@ -31,18 +32,35 @@ p {
 }
 
 .body-medico {
-    background-image: url("../img/bg.svg");
+    background-image: url("../img/bg-doctor.jpg");
     background-size: cover;
     background-repeat: no-repeat;
-    backdrop-filter: blur(2px);
+    backdrop-filter: blur(8px);
 
 }
 
+.body-blue {
+    background-image: url(../img/bg-blue3.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+
 .body-paciente {
-  background-image: url(../img/bg-green.png);
+  background-image: url(../img/bg-paciente.jpg);
   background-size: cover;
   background-repeat: no-repeat;
-  backdrop-filter: blur(2px);
+  backdrop-filter: blur(8px);
+}
+
+.body-green {
+    background-image: url(../img/bg-green3.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.no-scrollbar {
+    overflow-y: hidden;
 }
 
 .container {
@@ -74,18 +92,13 @@ p {
 }
 
 footer {
-    /* position: absolute;
-    bottom: 0;
-    width: 100%; */
-    /* text-align: center; */
-    /* border-top: 1px solid grey; */
-    background-color: white;
+    /* background-color: white; */
     padding: 10px 0;
     display: flex;
     align-items: center;
     flex-direction: row;
     justify-content: space-evenly;
-    border-top: 1px solid black;
+    /* border-top: 1px solid black; */
 }
 
 .footer-login {

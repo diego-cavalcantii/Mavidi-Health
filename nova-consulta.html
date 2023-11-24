@@ -1,81 +1,50 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/ficha.css">
+    <link rel="stylesheet" href="./css/forms.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap"
+        rel="stylesheet">
 </head>
-<body>
-    <main>
-        <header>
-    
-        </header>
-        <!-- <div class="container container-flex">
-            <form>
-                <div>
-                    <label for="Nome do Médico">Nome do Médico</label>
-                    <input type="text" name="nome-medico" id="nome-medico">
-                </div>
-                <div>
-                    <label for="Espcialidade">Especialidade</label>
-                    <input type="text" name="especialidade" id="especialidade">
-                </div>
-                <div>
-                    <label for="CRM">CRM</label>
-                    <input type="tel" name="crm" id="crm">
-                </div>
-                <div>
-                    <label for="Area de atuacao">Area de Atuação</label>
-                    <input type="text" name="" id="">
-                </div>
-            </form>
-        </div> -->
-        <!-- <div class="container container-flex">
-            <form class="wrappen">
-                <div>
-                    <div>
-                        <label for="Nome do paciente">Nome do Paciente</label>
-                        <input type="text" name="nome-paciente" id="nome-paciente">
-                    </div>
-                    <div>
-                        <label for="genero">Gênero</label>
-                        <input type="text" name="genero" id="genero">
-                    </div>
-                    <div>
-                        <label for="Idade">Idade</label>
-                        <input type="number" name="idade" id="idade">
-                    </div>
-                </div>
-                <div>
-                    <div>
-                        <label for="Peso">Peso</label>
-                        <input type="number" name="peso" id="peso">
-                    </div>
-                    <div>
-                        <label for="Altura">Altura</label>
-                        <input type="tel" name="altura" id="altura">
-                    </div>
-                    <div>
-                        <label for="CPF">CPF</label>
-                        <input type="tel" name="cpf" id="cpf">
-                    </div>
-                </div>
-            </form>
-        </div> -->
+
+<body class="body-blue">
+    <header>
         <div class="container container-flex">
-            <form class="wrappen">
-                <div>
+            <div class="logo">
+                <img src="./img/hapvida-logo.png" alt="">
+            </div>
+            <nav class="menu">
+                <ul>
+                    <li><a href="./medico2.html">PACIENTE</a></li>
+                    <li><a href="./medico3.html">CONSULTAS</a></li>
+                    <li><a href="./nova-consulta.html">NOVA CONSULTA</a></li>
+                    <li><a href="#">REMÉDIOS</a></li>
+                    <li><a href="#">EXAMES</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <div class="container-consulta">
+            <form class="consulta-form">
+                <div class="row">
                     <div>
                         <label for="sintomas">Sintomas</label>
                         <textarea name="sintomas" id="sintomas"></textarea>
                     </div>
                     <div>
                         <label for="remedio">Remédio/Medicação</label>
-                        <input type="text" name="remedio" id="remedio">
+                        <textarea name="remedio" id="remedio"></textarea>
                     </div>
                 </div>
-                <div>
+                <div class="row">
                     <div>
                         <label for="exame">Exames</label>
                         <textarea name="exame" id="exame"></textarea>
@@ -85,22 +54,19 @@
                         <input type="date" name="data" id="data">
                     </div>
                 </div>
-            </form>
-        </div>
-        <div class="container container-flex">
-            <form class="wrappen">
                 <div>
                     <label for="descrição">Descrição da Consulta</label>
                     <textarea name="dsc" id="dsc"></textarea>
                 </div>
             </form>
         </div>
-        
-        <footer>
+
+        <footer class="footer-login">
             <p>Diego Cavalcanti - RM 553351</p>
             <p>Mateus Galeazi - RM 553352</p>
             <p>Vitor de Melo - RM 553483</p>
         </footer>
     </main>
 </body>
+
 </html>
