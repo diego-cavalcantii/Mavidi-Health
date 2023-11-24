@@ -1,117 +1,147 @@
-* {
-    box-sizing: border-box;
-    padding: 0;
-    margin: 0;
-    /* border: 1px solid black; */
-}
-
-.wrappen {
-    height: 60vh;
-    /* width: 90%; */
-    margin: 0 auto;
+  
+ .container-login {
+    width: 90%;
+    margin: 8% auto;
     display: flex;
-    justify-content: center;
-    align-items: center;
-    font-size: 16px; 
-    flex-wrap: wrap;
-    gap: 1.5rem;
-}
-
-.margin-login {
-    margin-top: 60px;
-    /* margin-bottom: 40px; */
-}
-
-.box-login {
-    /* width: 520px; */
-    /* height: 207px; */
-    display: flex;
-    flex-direction: column;
     align-items: center;
     justify-content: center;
-    gap: 2rem;
-    /* border-radius: 30px; */
-    /* border: 4px solid #000; */
-    /* background: #EEE; */
-    /* box-shadow: 0px 8px 10px 1px rgba(0, 0, 0, 0.30); */
-}
+    /* padding: 0 24px; */
+  }
 
-label {
-    display: block;
-    color: #7A7A7A;
-    font-family: Inter;
-    font-size: 15px;
-    font-style: normal;
-    font-weight: 700;
-    line-height: normal;
-}
-
-input {
-    width: 316px;
-    height: 40px;
-    border-radius: 10px;
-    background: rgba(238, 238, 238, 0.93);
-}
-
-.input-medico {
-    border: 4px solid #5654B4;
-}
-.input-paciente {
-    border: 4px solid #F49E00;
-}
-
-.input-container {
-    position: relative;
-}
-
-.input-container label {
-    position: absolute;
+  .margin {
+    margin: 3% auto;
+  }
+  
+  .login {
+    /* position: fixed; */
+    /* z-index: 3; */
     top: 50%;
-    left: 10px; /* Ajuste conforme necessário */
-    transform: translateY(-50%);
-    pointer-events: none;
-    transition: opacity 0.3s ease-out; /* Adiciona transição para suavizar o desaparecimento */
-    opacity: 1;
-}
+    left: 50%;
+    /* translate: -50% -50%; */
+    /* width: 90%; */
+    padding: 10px 30px 30px;
+    border-radius: 22px;
+    background: white;
+    text-align: center;
+  }
+  
+  
+  .avatar {
+    margin: 0 auto 16px;
+    border-radius: 50%;
+    /* background: linear-gradient(-45deg, #157ae1, #c7a1ff); */
+    padding: 2px;
+    width: 120px;
+    height: 120px;
+  }
+  
 
-.input-container input:focus + label {
-    opacity: 0;
-}
+  
+  .login-form {
+    display: flex;
+    gap: 16px;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+    margin: 0;
+  }
 
-.input-container input:not(:focus) {
-    padding-left: 150px; /* Ajuste conforme necessário para dar espaço ao label */
-}
+  .busca-paciente {
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+  }
 
-.input-container input:not(:focus) + label {
-    opacity: 1;
-}
+  .busca-paciente input {
+    /* width: 100%; */
+    height: 35px;
+    border-radius: 5px;
+  }
 
-.input-container input {
-    box-sizing: border-box;
-}
-
-.enviar {
-    width: 150px;
-    height: 40px;
-    border-radius: 10px;
+  .busca-paciente button {
+    width: 90px;
+    border-radius: 5px;
+    background-color: #157ae1;
     border: none;
-}
-
-.enviar a {
+  }
+  .busca-paciente a {
     text-decoration: none;
     color: white;
-    font-size: 17px;
     font-weight: 700;
-}
+    /* padding: 5%; */
+  }
+  
+  .textbox {
+    width: 100%;
+    position: relative;
+  }
+  
+  .textbox span {
+    position: absolute;
+    top: 50%;
+    left: 16px;
+    translate: 0 -50%;
+    color: black;
+  }
+  
+  .login-form input,
+  .login-form button {
+    width: 100%;
+    height: 60px;
+    /* outline: none; */
+    /* padding: 0; */
+    /* font-family: inherit; */
+    /* font-size: 16px; */
+    border-radius: 8px;
+  }
+  
+  input:placeholder-shown{
+    font-family: Inter;
+    font-weight: 700;
+    padding: 2%;
+  }
+  
+  .login-form input {
+    /* background: transparent; */
+    border: 2px solid black;
+    font-size: 18px;
+    padding: 0 20px 0 50px;
+    /* color: inherit; */
+  }
+  
+  .login-form input:focus {
+    border-color: #157ae1;
+  }
+  
+  .login-form input:focus ~ span {
+    color: #157ae1;
+  }
+  
+  .login-form button {
+    cursor: pointer;
+    border: 0;
+  }
 
-.blue {
-    background-color:  #5654B4;
-}
+  .blue {
+    background-color: #157ae1;
+  }
 
-.orange {
-    background-color: #F49E00;
-}
+  .orange {
+    background-color: #2e8b57;
+  }
 
-
-
-
+  .login-form a {
+    font-size: 1.5rem;
+    font-weight: 700;
+    text-decoration: none;
+    color: #f9f9f9;
+  }
+   
+  .icon {
+    display: block;
+    padding: 2%;
+    margin: 40px 0;
+    color: black;
+  }
+  
