@@ -30,11 +30,18 @@ label {
     width: 330px;
     height: 40px;
     border: 2px solid black;
+    padding: 3%;
     /* outline: none; */
     /* padding: 0; */
     /* font-family: inherit; */
     /* font-size: 16px; */
     border-radius: 3px;
+}
+
+textarea:placeholder-shown {
+    font-size: 1rem;
+    font-weight: 600;
+    padding: 2% 2%;
 }
 
 #dsc {
