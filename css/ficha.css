@@ -7,10 +7,10 @@
 .box {
     width: 480px;
     /* height: 120px; */
-    padding: 1%;
+    padding: .75%;
     margin-top: 10px;
     border-radius: 20px;
-    /* border: 4px solid black; */
+    /* border: 2px solid rgb(201, 201, 201); */
     box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.40);
     display: flex;
     align-items: center;
@@ -29,12 +29,12 @@
 }
 
 .box-blue {
-    background-color: #e1ecf6;
+    background-color: #e1e1e1;
     /* border: 2px solid black; */
 }
 
 .box-green {
-    background-color: #f2ddd4;
+    background-color: #e1e1e1;
     /* border: 2px solid black; */
 }
 
@@ -62,20 +62,6 @@
 .botao {
     width: 90%;
     margin: 0 auto;
-}
-
-.add-consulta {
-    display: block;
-    margin-left: auto;
-    width: 180px;
-    height: 50px;
-    border-radius: 8px;
-    background: #5654B4;
-    border: none;
-    color: #FFF;
-    font-family: Inter;
-    font-size: 15px;
-    font-weight: 700;
 }
 
 .box-macro {
@@ -109,23 +95,21 @@
     box-shadow: 0.5px 0.5px 10px 0px rgba(65, 65, 65, 0.4);
     background-color: white;
     transition: all .6s ease-out;
+    border: 1px solid rgb(165, 165, 165);
 
 }
-
-
-
-
 
 .macro-blue {
     background-color: #a2d1ff;  
 }
 
 .macro-green {
-    background-color: #eec6b6;
+    background-color: #fba030;
 }
 
 .historico {
-    margin: 10% auto;
+    margin: 5% auto;
+    /* height: 100vh; */
     display: flex;
     justify-content: center;
     align-items: center;
@@ -143,28 +127,41 @@
 
 .historico-presc {
     display: flex;
-    justify-content: center;
-    align-items: center;
+    /* justify-content: center; */
+    align-items:start;
     flex-direction: column;
-    gap: 1.5rem;
+    gap: 1.15rem;
 }
 
 .historico-presc h1 {
-    margin: 30px 0;
+    margin: 35px 0;
     font-weight: 800;
     color: white;
     font-size: 50px;
     border-bottom: 3px solid black;
-    /* padding: 1%; */
-    /* border-radius: 50px; */
-    -webkit-text-stroke: 2px black; /* Borda da fonte no Safari/Chrome */
+    font-family: 'Archivo', sans-serif;
+    font-weight: 900;
+    -webkit-text-stroke: 2px black;   
 }
 
 .box-presc {
-    width: 95%;
-    padding: .75%;
-    
-    /* height: 40px; */
+    width: 70%;
+    /* padding: 1%; */
     border-radius: 50px;
-    background-color: #d9d9d9;
+    background-color: white;
+    border: 2px solid black;
+}
+
+.box-pre {
+    width: 25%;
+    padding: 2%;
+    border-radius: 50px;
+    background-color: #fba030;
+    box-shadow: 1px 0.5px 10px 0px rgba(65, 65, 65, 0.4);
+    transition: all 0.6s;
+}
+
+.box-pre:hover {
+    background-color: #e57e00;
+    box-shadow: 3px 0.5px 10px 0px rgba(0, 0, 0, 0.5);
 }

@@ -40,10 +40,11 @@ p {
 }
 
 .body-blue {
-    background-image: url(../img/bg-blue3.png);
+    background-image: url(../img/bg-doctor.jpg);
     background-size: cover;
     background-repeat: no-repeat;
-    backdrop-filter: blur(4px);
+    /* backdrop-filter: opacity(100%); */
+    backdrop-filter: blur(30px);
 
 }
 
@@ -56,10 +57,10 @@ p {
 }
 
 .body-green {
-    background-image: url(../img/bg-orange.png);
+    background-image: url(../img/bg-paciente.jpg);
     background-size: cover;
     background-repeat: no-repeat;
-    backdrop-filter: blur(4px);
+    backdrop-filter: blur(30px);
 }
 
 .no-scrollbar {
@@ -67,8 +68,10 @@ p {
 }
 
 .container {
-    width: 90%;
+    width: 89%;
     margin: 0 auto;
+    /* background-color: white; */
+    /* backdrop-filter: opacity(100%); */
 }
 
 .container-flex {
@@ -85,6 +88,8 @@ p {
     padding: 0 20px;
     text-decoration: none;
     color: black;
+    font-family: 'Archivo', sans-serif;
+    font-weight: 500;
 }
 
 .logo {
@@ -95,8 +100,8 @@ p {
 }
 
 footer {
-    /* background-color: white; */
-    padding: 10px 0;
+    /* background-color: #e1e1e1; */
+    padding: 15px 0;
     display: flex;
     align-items: center;
     flex-direction: row;
@@ -104,11 +109,26 @@ footer {
     /* border-top: 1px solid black; */
 }
 
+footer h1 {
+    font-size: 1rem;
+    font-weight: 700;
+    font-family: 'Archivo', sans-serif; 
+}
+
+footer span{
+    color: red;
+    font-family: 'Archivo', sans-serif;
+}
+
+
+
 .footer-login {
     position: absolute;
     bottom: 0;
     width: 100%;
 }
+
+
 
 .icon {
     display: block;
