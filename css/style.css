@@ -43,6 +43,8 @@ p {
     background-image: url(../img/bg-blue3.png);
     background-size: cover;
     background-repeat: no-repeat;
+    backdrop-filter: blur(4px);
+
 }
 
 
@@ -54,9 +56,10 @@ p {
 }
 
 .body-green {
-    background-image: url(../img/bg-green3.png);
+    background-image: url(../img/bg-orange.png);
     background-size: cover;
     background-repeat: no-repeat;
+    backdrop-filter: blur(4px);
 }
 
 .no-scrollbar {
