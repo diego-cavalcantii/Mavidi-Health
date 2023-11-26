@@ -47,7 +47,7 @@ label {
 textarea:placeholder-shown {
     font-size: 1rem;
     font-weight: 600;
-    padding: 2% 2%;
+    padding: 2.5% 2.5%
 }
 
 #dsc {
@@ -84,7 +84,7 @@ button:hover {
     cursor: pointer;
 }
 
-@media only screen and (max-width: 768px) {
+@media (min-width: 375px) {
     .container-consulta {
         width: 100%;
         margin: 15% 0;
@@ -92,8 +92,13 @@ button:hover {
 
     .consulta-form {
         width: 80%;
-        height: 70vh;
-        gap: 2.5rem;
+        /* height: 70vh; */
+        gap: 1.25rem;
+    }
+
+    .consulta-form h1 {
+        margin-bottom: 0;
+        font-size: 1.5rem;
     }
 
     .row {
@@ -113,4 +118,39 @@ button:hover {
     button {
         margin: 10px auto;
     }
+    textarea:placeholder-shown {
+        font-size: 1rem;
+        font-weight: 600;
+        padding: 2.5% 2.5%
+    }
+}
+
+@media(min-width: 1200px){
+    .container-consulta {
+        width: 90%;
+        margin: 2% auto;
+    }
+    .consulta-form {
+        width: 60%;
+        /* height: 70vh; */
+        gap: 1.25rem;
+    }
+    .row {
+        flex-direction: row;
+    }
+    .consulta-form input,
+    .consulta-form textarea {
+        width: 330px;
+    }
+    #dsc {
+        width: 400px;
+        height: 100px; /* Ajuste conforme necessário */
+    }
+    button {
+        display: block;
+        margin: 0 0 0 auto;
+    }
+
+
+
 }
