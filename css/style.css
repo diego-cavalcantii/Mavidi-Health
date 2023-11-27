@@ -152,7 +152,7 @@ footer span {
     .menu.open li {
         display: flex;
         /* align-items: end; */
-        text-align: right;
+        text-align: center;
         flex-direction: column;
     }
 
@@ -160,6 +160,10 @@ footer span {
         display: block;
         padding: 5px 10px 10px 10px;
     }
+    /* .xzao a{
+        display: block;
+        margin-left: auto;
+    } */
 }
 
 @media(min-width:1200px) {
@@ -170,5 +174,8 @@ footer span {
     .menu {
         position: relative;
         left: 0;
+    }
+    .xzao {
+        display: none;
     }
 }

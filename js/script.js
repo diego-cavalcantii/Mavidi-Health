@@ -22,3 +22,4 @@ window.onload = function() {
    var nome = localStorage.getItem('exame');
    document.getElementById('exibicaoNome').innerHTML = nome;
 }
+
