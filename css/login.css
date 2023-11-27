@@ -174,30 +174,6 @@
       width: 95%;
       height: 40px;
     }
-    .menu {
-      position: absolute;
-      top: 0;
-      left: -200%;
-    }
-
-    .open {
-      left: 0;
-      background-color: #a9a9a9;
-      /* height: 20vh; */
-      width: 100vw;
-    }
-
-    .menu.open li {
-      display: flex;
-      /* align-items: end; */
-      text-align: right;
-      flex-direction: column;
-    }
-
-    .menu.open li a {
-      display: block;
-      padding: 5px 10px 10px 10px;
-    }
   }
 
   @media(min-width:1200px){
@@ -216,9 +192,7 @@
       width: 100%;
       height: 60px;
     }
-    .menu-button {
-      display: none;
-    }
+    
     /* .menu {
       position: relative;
       left: 0;

@@ -6,7 +6,7 @@
 }
 
 html,
-body { 
+body {
     font-size: 16px;
     font-family: Inter;
     height: 100%;
@@ -50,10 +50,10 @@ p {
 
 
 .body-paciente {
-  background-image: url(../img/bg-paciente.jpg);
-  background-size: cover;
-  background-repeat: no-repeat;
-  backdrop-filter: blur(8px);
+    background-image: url(../img/bg-paciente.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    backdrop-filter: blur(8px);
 }
 
 .body-green {
@@ -112,10 +112,10 @@ footer {
 footer h1 {
     font-size: 1rem;
     font-weight: 700;
-    font-family: 'Archivo', sans-serif; 
+    font-family: 'Archivo', sans-serif;
 }
 
-footer span{
+footer span {
     color: red;
     font-family: 'Archivo', sans-serif;
 }
@@ -133,4 +133,42 @@ footer span{
 .icon {
     display: block;
     padding: 2%;
+}
+
+@media(min-width:375px) {
+    .menu {
+        position: absolute;
+        top: 0;
+        left: -200%;
+    }
+
+    .open {
+        left: 0;
+        background-color: #a9a9a9;
+        /* height: 20vh; */
+        width: 100vw;
+    }
+
+    .menu.open li {
+        display: flex;
+        /* align-items: end; */
+        text-align: right;
+        flex-direction: column;
+    }
+
+    .menu.open li a {
+        display: block;
+        padding: 5px 10px 10px 10px;
+    }
+}
+
+@media(min-width:1200px) {
+    .menu-button {
+        display: none;
+    }
+
+    .menu {
+        position: relative;
+        left: 0;
+    }
 }
