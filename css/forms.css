@@ -83,6 +83,9 @@ button:hover {
 }
 
 @media (min-width: 375px) {
+    form {
+        z-index: 10;
+    }
     .container-consulta {
         width: 100%;
         margin: 15% 0;

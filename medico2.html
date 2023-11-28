@@ -51,7 +51,7 @@
                         <input type="text" name="crm" id="carteirinha" placeholder="Nº CARTEIRINHA">
                         <label for="carteirinha"></label>
                     </div>
-                    <button type="submit"><a href="./medico3.html">ACESSAR</a></button>
+                    <button type="submit">ACESSAR</button>
                 </form>
             </div>
         </section>
@@ -73,4 +73,17 @@
 </body>
 <script src="https://kit.fontawesome.com/20581efa0a.js" crossorigin="anonymous"></script>
 <script src="./js/script.js"></script>
+<script>
+    window.onload = function() {
+        let url = window.location.search.split('&');
+        let tipo = url[1].split('=');
+
+        if(tipo[1] == "medico") {
+            alert("medico");
+        } else {
+            alert("paciente");
+        }
+        
+    };
+</script>
 </html>

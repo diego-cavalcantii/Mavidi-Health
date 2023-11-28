@@ -28,18 +28,29 @@
                 <div class="icon">
                     <i class="fa-solid fa-user-doctor fa-fade fa-2xl"></i>
                 </div>
-                <form class="login-form">
-                    <div class="textbox">
+                <form class="login-form" method="get" action="medico2.html">
+                    <div class="textbox" id="medico">
                         <input type="text" name="crm" id="crm" placeholder="CRM">
                         <label for="crm"></label>
                         <span class="material-symbols-outlined"> account_circle </span>
                     </div>
+
+                    <div class="textbox" id="paciente">
+                        <input type="text" name="carteirinha" id="carteirinha" placeholder="Nº CARTEIRINHA">
+                        <label for="carteirinha"></label>
+                        <span class="material-symbols-outlined"> account_circle </span>
+                    </div>
+
                     <div class="textbox">
                         <input type="password" placeholder="PASSWORD" />
                         <label for="password'"></label>
                         <span class="material-symbols-outlined"> lock </span>
                     </div>
-                    <button type="submit" class="blue"><a href="./medico2.html">LOGIN</a></button>
+                    <select name="tipo" id="tipo" onchange="alertar()">
+                        <option value="paciente">Paciente</option>
+                        <option value="medico">Medico</option>
+                    </select>
+                    <button type="submit" class="blue">Login</button>
                 </form>
             </div>
         </div>
