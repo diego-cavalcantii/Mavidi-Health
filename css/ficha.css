@@ -176,7 +176,8 @@
 
 @media(min-width:375px) {
     .box {
-        padding: 3%;
+        width: 350px;
+        margin-top: 30px;
     }
     p {
         font-size: 11px;
@@ -194,6 +195,10 @@
     }
     .box-presc {
         width: 100%;
+    }
+    .historico {
+        margin: 15% auto;
+        gap: 1.5rem;
     }
     .historico-presc h1 {
         margin: 40px auto 8px auto;
@@ -226,4 +231,9 @@
     .historico-presc h1 {
         margin: 35px 0;
     }
+    .historico {
+        margin: 5% auto;
+        gap: 2.5rem;
+    }
+
 }

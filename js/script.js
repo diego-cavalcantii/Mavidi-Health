@@ -2,6 +2,8 @@ const menuButton = document.querySelector("#menu-button")
 
 const menuElement = document.querySelector("#menu")
 
+// const closeButton = document.querySelector(".close-button");
+
  
 
 menuButton.addEventListener("click", function () {
@@ -23,3 +25,6 @@ window.onload = function() {
    document.getElementById('exibicaoNome').innerHTML = nome;
 }
 
+xzao.addEventListener("click", function () {
+   menuElement.classList.remove("open");
+ });
