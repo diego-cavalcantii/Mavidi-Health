@@ -1,52 +1,61 @@
-* {
-   box-sizing: border-box;
-   padding: 0;
-   margin: 0;
-}
-
-html {
-   font-size: 16px;
-}
-
-body {
-   font-family: 'Inclusive Sans', sans-serif;
-   color: #032d6a;
-}
-
-img {
-   max-width: 100%;
-}
-
-h1 {
-   font-size: 2.25rem;
-}
-.wrapper {
+.wrapper-box {
    display: flex;
-   align-items: center;
-   justify-content: center;
-   flex-direction:column;
-   height: 80vh
+   /* align-items: center; */
+   /* justify-content: center; */
+   flex-direction: column;
+   height: 80vh;
+   width: 95%;
+   margin: 0 auto;
 }
 
 .wrapper-int {
    display: flex;
+   /* align-items: center; */
+   /* justify-content: left; */
+   flex-direction: column;
+   width: 100%;
+}
+
+.wrapper-icon {
+   display: flex;
+   flex-direction: row;
    align-items: center;
-   justify-content: center;
-   flex-direction:row;
+
+}
+
+.wrapper-box span,
+.wrapper-box h1 {
+   font-size: 50px;
+}
+
+.wrapper-box span {
+   color: red;
 }
 
 .title-int {
-   margin-bottom: 4%;
+   margin: 2% 0;
 }
 
+.text-info {
+   padding: .5% 1.5%;
+   background-color: rgba(0, 0, 0, 0.3);
+   border-radius: 20px;
+   width: 35%;
+}
+
+.text-info p {
+   margin: .5% 0;
+   font-size: 15px;
+}
+
+.caixa-icon {
+   display: flex;
+   flex-direction: column;
+}
+
+
 .caixa {
-   width: 18%;
-   /* height: 200px; */
-   /* border: 3px solid black; */
-   /* border-radius: 35px; */
-   margin: 0 4%;
-   /* background-color: #cfcfcf; */
-   /* box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.5); */
+   width: 9%;
    padding: 1%;
 }
 
@@ -63,9 +72,54 @@ h1 {
    text-align: center;
 }
 
+@media(min-width:375px) {
+   .title-int {
+      margin: 5% 0;
+   }
 
+   .caixa {
+      width: 30%;
+      padding: 1%;
+   }
 
+   .text-info {
+      padding: .5% 3.5%;
+      width: 100%;
+      margin: 8% 0;
+   }
 
+   .text-info p {
+      font-size: 12px;
+   }
 
+   .wrapper-box span,
+   .wrapper-box h1 {
+      font-size: 40px;
+   }
+}
 
+@media(min-width:1200px) {
+   .title-int {
+      margin: 2% 0;
+   }
 
+   .caixa {
+      width: 9%;
+      padding: 1%;
+   }
+
+   .text-info {
+      padding: .5% 1.5%;
+      width: 35%;
+      margin: 0;
+   }
+
+   .text-info p {
+      font-size: 15px;
+   }
+
+   .wrapper-box span,
+   .wrapper-box h1 {
+      font-size: 50px;
+   }
+}
