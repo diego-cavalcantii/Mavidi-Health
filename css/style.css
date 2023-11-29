@@ -196,8 +196,8 @@ footer span {
         background-color: white;
         margin: 0 auto;
         font-size: 1rem;
-        padding: 1% 2%;
-        width: 30%;
+        padding: 2% 0;
+        width: 40%;
         border-radius: 5px;
         color: darkblue;
         font-weight: 600;
@@ -214,8 +214,8 @@ footer span {
         background-color: white;
         margin: 0 auto;
         font-size: 1rem;
-        padding: 1% 2%;
-        width: 30%;
+        padding: 2% 0;
+        width: 40%;
         border-radius: 5px;
         color: darkred;
         border: none;

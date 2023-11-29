@@ -48,6 +48,10 @@
    font-size: 15px;
 }
 
+.text-info span {
+   font-size: 15px;
+}
+
 .caixa-icon {
    display: flex;
    flex-direction: column;
@@ -88,13 +92,14 @@
       margin: 8% 0;
    }
 
-   .text-info p {
-      font-size: 12px;
-   }
-
+   
    .wrapper-box span,
    .wrapper-box h1 {
       font-size: 40px;
+   }
+   .text-info p,
+   .text-info span {
+      font-size: 12px;
    }
 }
 
@@ -114,12 +119,17 @@
       margin: 0;
    }
 
-   .text-info p {
-      font-size: 15px;
-   }
-
    .wrapper-box span,
    .wrapper-box h1 {
       font-size: 50px;
+   }
+
+   .text-info p,
+   .text-info span {
+      font-size: 15px;
+   }
+
+   .text-info span {
+      color: rgb(198, 0, 0);
    }
 }
