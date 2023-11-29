@@ -1,8 +1,3 @@
-* {
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
-}
 
 .box {
     /* width: 480px; */
@@ -152,6 +147,27 @@
     -webkit-text-stroke: 2px black;
 }
 
+.camera {
+    display: flex;
+    gap: 3rem;
+    align-items: center;
+    width: 100%;
+}
+
+.camera span {
+    font-size: 15px;
+    margin-left: 5px;
+}
+
+.camera .icon i {
+    color: rgba(0, 0, 0, 0.7);
+    transition: all 0.3s;
+}
+
+.camera .icon i:hover {
+    color: black;
+}
+
 .box-presc {
     margin-bottom: 3%;
     width: 70%;
@@ -173,16 +189,12 @@
 }
 
 .box-pre {
-    /* position: relative;
-    top: 101px;
-    left: 4px; */
     width: 35%;
     padding: 2%;
     border-radius: 50px;
     background-color: #fba030;
     box-shadow: 1px 0.5px 10px 0px rgba(65, 65, 65, 0.4);
     transition: all 0.6s;
-    /* z-index: 15; */
 }
 
 .box-pre p {
@@ -195,11 +207,6 @@
 }
 
 @media(min-width:375px) {
-    .box {
-        width: 350px;
-        margin: 30px auto 0 auto;
-    }
-
     p {
         font-size: 11px;
     }
@@ -221,7 +228,9 @@
     .box-presc {
         width: 100%;
     }
-
+    .box-presc p {
+        font-size: 8px;
+    }
     .historico {
         margin: 15% auto;
         gap: 1.5rem;
@@ -235,6 +244,29 @@
     .historico-presc h1 {
         margin: 40px auto 8px auto;
     }
+    .box-pre {
+        width: 50%;
+    }
+    .camera {
+        flex-direction: column;
+        gap: .5rem;
+        margin-bottom: 5px;
+    }
+    .camera .icon  {
+        font-size: 15px;
+        color: black;
+    }
+    .camera span {
+        color: rgba(0, 0, 0, 0.9);
+        font-weight: 600;
+    /* -webkit-text-stroke: 0.4px black; */
+
+    }
+    .footer-end {
+        position: absolute;
+        bottom: 0;
+        width: 100%;
+    }
 
     footer {
         position: absolute;
@@ -247,7 +279,6 @@
     .box {
         padding: .75%;
         width: 480px;
-        margin: 10px auto 0 0;
     }
 
     p {
@@ -279,6 +310,25 @@
     .historico {
         margin: 5% auto;
         gap: 2.5rem;
+    }
+    .box-presc p {
+        font-size: 13px;
+    }
+    .box-pre {
+        width: 30%;
+    }
+    .camera {
+        flex-direction: row;
+        gap: 3rem;
+        margin-bottom: 0;
+    }
+    .camera .icon  {
+        font-size: 23px;
+    }
+    .footer-end {
+        position: relative;
+        /* bottom: 0; */
+        width: 100%;
     }
     footer {
         position: relative;

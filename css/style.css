@@ -59,7 +59,7 @@ p {
 }
 
 .body-green {
-    background-image: url(../img/bg-paciente.jpg);
+    background-image: url(../img/bg-doctor.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     backdrop-filter: blur(30px);
@@ -79,7 +79,7 @@ p {
 }
 
 .container {
-    width: 89%;
+    width: 90%;
     margin: 0 auto;
 }
 
@@ -109,7 +109,7 @@ p {
 }
 
 footer {
-    background-color: rgba(0, 0, 0, 0.3);
+    background-color: rgba(0, 0, 0, 0.2);
     /* background-color: white; */
     padding: 15px 0;
     display: flex;
@@ -132,7 +132,7 @@ footer span {
 
 
 
-.footer-login {
+.footer-end {
     position: absolute;
     bottom: 0;
     width: 100%;
@@ -143,10 +143,15 @@ footer span {
 .icon {
     display: block;
     padding: 2%;
+    font-size: 20px;
+    transition: all 0.2s;
 }
 
-
 @media(min-width:375px) {
+    .container {
+        /* width: 90%; */
+        margin: 0 auto;
+    }
     .logo {
         width: 28%;
     }
@@ -246,6 +251,10 @@ footer span {
 }
 
 @media(min-width:1200px) {
+    .container {
+        width: 90%;
+        margin: 0 auto;
+    }
     .menu-button {
         display: none;
     }
