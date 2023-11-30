@@ -4,9 +4,10 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Login-medico</title>
+    <title>Login Medico</title>
     <link rel="stylesheet" href="./css/style.css">
     <link rel="stylesheet" href="./css/login.css">
+    <link rel="stylesheet" href="./css/ficha.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Archivo:wght@400;500;600;700;800;900&family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
@@ -14,7 +15,7 @@
     href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,600,0,0" />
 </head>
 
-<body class="body-medico no-scrollbar"> 
+<body class="bg-login no-scrollbar"> 
     <header>
         <div class="wrappen">
             <div class="logo">
@@ -34,28 +35,17 @@
                         <label for="crm"></label>
                         <span class="material-symbols-outlined"> account_circle </span>
                     </div>
-
-                    <div class="textbox" id="paciente">
-                        <input type="text" name="carteirinha" id="carteirinha" placeholder="Nº CARTEIRINHA">
-                        <label for="carteirinha"></label>
-                        <span class="material-symbols-outlined"> account_circle </span>
-                    </div>
-
                     <div class="textbox">
                         <input type="password" placeholder="PASSWORD" />
                         <label for="password'"></label>
                         <span class="material-symbols-outlined"> lock </span>
                     </div>
-                    <select name="tipo" id="tipo" onchange="alertar()">
-                        <option value="paciente">Paciente</option>
-                        <option value="medico">Medico</option>
-                    </select>
-                    <button type="submit" class="blue">Login</button>
+                    <button type="submit" class="blue">LOGIN</button>
                 </form>
             </div>
         </div>
     </main>
-    <footer class="footer-login">
+    <footer class="absolute">
         <h1>MAVIDI-<span>HEALTH</span> &copy;</h1>
         <p>Diego Silva Cavalcanti RM-553351</p>
         <p>Mateus Galeazi de Oliveria RM-553352</p>

@@ -1,7 +1,5 @@
 
 .box {
-    /* width: 480px; */
-    /* height: 120px; */
     padding: .75%;
     margin-top: 10px;
     border-radius: 20px;
@@ -68,10 +66,8 @@
 }
 
 .box-macro {
-    top: 50px;
     right: 20px;
     position: relative;
-    width: 350px;
     padding: 5%;
     border: 2px solid black;
     background-color: white;
@@ -81,17 +77,10 @@
     /* box-shadow: 0px 2.5px 5px 0px rgba(0, 0, 0, 0.40); */
 }
 
-
-.box-consulta:hover {
-    box-shadow: 3px 3px 10px 0px rgba(0, 0, 0, 0.40);
-    background-color: rgb(226, 226, 226);
-}
-
 .box-consulta {
     border-radius: 10px;
     padding: 17% 1% 5% 5%;
     position: relative;
-    width: 350px;
     display: flex;
     flex-direction: column;
     gap: 1.5rem;
@@ -100,6 +89,11 @@
     transition: all .6s ease-out;
     border: 1px solid rgb(165, 165, 165);
 
+}
+
+.box-consulta:hover {
+    box-shadow: 3px 3px 10px 0px rgba(0, 0, 0, 0.40);
+    background-color: rgb(226, 226, 226);
 }
 
 .macro-blue {
@@ -111,13 +105,10 @@
 }
 
 .historico {
-    margin: 5% auto;
-    /* height: 100vh; */
     display: flex;
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
-    gap: 2.5rem;
 }
 
 .historico h1 {
@@ -130,14 +121,11 @@
 
 .historico-presc {
     display: flex;
-    /* justify-content: center; */
     align-items: start;
     flex-direction: column;
-    /* gap: 1.15rem; */
 }
 
 .historico-presc h1 {
-    margin: 35px 0;
     font-weight: 800;
     color: white;
     font-size: 50px;
@@ -170,7 +158,6 @@
 
 .box-presc {
     margin-bottom: 3%;
-    width: 70%;
     border-radius: 50px;
     background-color: white;
     border: 2px solid black;
@@ -181,7 +168,6 @@
 
 .box-presc p {
     margin-left: 5%;
-
 }
 
 .dsc {
@@ -189,7 +175,6 @@
 }
 
 .box-pre {
-    width: 35%;
     padding: 2%;
     border-radius: 50px;
     background-color: #fba030;
@@ -207,6 +192,9 @@
 }
 
 @media(min-width:375px) {
+    .box {
+        width: 350px;
+    }
     p {
         font-size: 11px;
     }
@@ -217,7 +205,6 @@
 
     .box-consulta {
         width: 290px;
-        /* top: 30px; */
     }
 
     .box-macro {
@@ -235,12 +222,10 @@
         margin: 15% auto;
         gap: 1.5rem;
     }
-
     .historico-presc {
         gap: 1.5rem;
 
     }
-
     .historico-presc h1 {
         margin: 40px auto 8px auto;
     }
@@ -266,6 +251,11 @@
         position: absolute;
         bottom: 0;
         width: 100%;
+        padding: 5px;
+    }
+    .absolute {
+        position: absolute;
+        bottom: 0;
         padding: 5px;
     }
 
@@ -300,17 +290,17 @@
         width: 70%;
     }
 
-    .historico-presc h1 {
-        margin: 60px 0;
+    .box-presc p {
+        font-size: 13px;
     }
-
     .historico {
         margin: 5% auto;
         gap: 2.5rem;
     }
-    .box-presc p {
-        font-size: 13px;
+    .historico-presc h1 {
+        margin: 60px 0;
     }
+
     .box-pre {
         width: 30%;
     }
@@ -324,8 +314,12 @@
     }
     .footer-end {
         position: relative;
-        /* bottom: 0; */
         width: 100%;
+        padding: 10px;
+    }
+    .absolute {
+        position: absolute;
+        bottom: 0;
         padding: 10px;
     }
 }

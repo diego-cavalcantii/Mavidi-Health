@@ -1,7 +1,5 @@
 .wrapper-box {
    display: flex;
-   /* align-items: center; */
-   /* justify-content: center; */
    flex-direction: column;
    height: 80vh;
    width: 95%;
@@ -10,8 +8,6 @@
 
 .wrapper-int {
    display: flex;
-   /* align-items: center; */
-   /* justify-content: left; */
    flex-direction: column;
    width: 100%;
 }
@@ -23,26 +19,13 @@
 
 }
 
-.wrapper-box span,
-.wrapper-box h1 {
-   font-size: 50px;
-}
-
 .wrapper-box span {
    color: red;
 }
-
-.title-int {
-   margin: 2% 0;
-}
-
 .text-info {
-   padding: .5% 1.5%;
    background-color: rgb(214, 214, 214);
    box-shadow: 1px 1px 3px 0px rgba(0, 0, 0, 0.5);
-
    border-radius: 20px;
-   width: 35%;
 }
 
 .text-info p {
@@ -50,19 +33,9 @@
    font-size: 15px;
 }
 
-.text-info span {
-   font-size: 15px;
-}
-
 .caixa-icon {
    display: flex;
    flex-direction: column;
-}
-
-
-.caixa {
-   width: 9%;
-   padding: 1%;
 }
 
 .caixa div {
