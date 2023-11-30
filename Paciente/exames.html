@@ -4,27 +4,28 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="./css/style.css">
-    <link rel="stylesheet" href="./css/ficha.css">
-    <link rel="stylesheet" href="./css/forms.css">
+    <title>Historico exames paciente</title>
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/ficha.css">
+    <link rel="stylesheet" href="../css/forms.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Archivo:wght@400;500;600;700;800;900&family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+
 </head>
 
 <body class="bg">
     <header>
         <div class="wrappen">
             <div class="logo">
-                <img src="./img/hapvida-logo.png" alt="">
+                <img src="../img/hapvida-logo.png" alt="">
             </div>
             <nav>
                 <button id="menu-button" class="menu-button">MENU</button>
                 <ul id="menu" class="menu">
-                    <li><a href="./historico-paciente.html">CONSULTAS</a></li>
-                    <li><a href="./remedio-paciente.html">REMÉDIOS</a></li>
-                    <li><a href="./exame-paciente.html">EXAMES</a></li>
+                    <li><a href="./historico-consulta-paciente.html">CONSULTAS</a></li>
+                    <li><a href="./remedios.html">REMÉDIOS</a></li>
+                    <li><a href="./exames.html">EXAMES</a></li>
                     <li><a href="./sobre.html">SOBRE</a></li>
                     <li id="xzao"><button>VOLTAR</button></li>
                 </ul>
@@ -38,7 +39,7 @@
                     <i class="fa-solid fa-hospital-user fa-2xl"></i>
                 </div>
                 <div class="img-responsivo">
-                    <img src="./img/neymar.png" alt="">
+                    <img src="../img/neymar.png" alt="">
                     <div>
                         <p>Neymar da Silva Santos Junior</p>
                     </div>
@@ -52,14 +53,20 @@
             </div>
         </section>
         <section class="container historico-presc">
-            <h1>REMÉDIOS</h1>
+            <div class="camera">
+                <h1>EXAMES</h1>
+                <div class="icon">
+                    <i class="fa-solid fa-camera fa-2xl "></i>
+                    <span>Digitalize seus exames antigos aqui</span>
+                </div>
+            </div>
             <article class="box-presc">
                 <div class="box-pre">
                     <p>DATA : </p>
                     <p>ESPECIALIDADE : </p>
                 </div>
                 <divc class="dsc">
-                    <p>REMÉDIO : </p>
+                    <p>EXAME : </p>
                 </divc>
             </article>
             <article class="box-presc">
@@ -68,7 +75,7 @@
                     <p>ESPECIALIDADE : </p>
                 </div>
                 <divc class="dsc">
-                    <p>REMÉDIO : </p>
+                    <p>EXAME : </p>
                 </divc>
             </article>
             <article class="box-presc">
@@ -77,7 +84,7 @@
                     <p>ESPECIALIDADE : </p>
                 </div>
                 <divc class="dsc">
-                    <p>REMÉDIO : </p>
+                    <p>EXAME : </p>
                 </divc>
             </article>
         </section>
@@ -90,5 +97,5 @@
     </footer>
 </body>
 <script src="https://kit.fontawesome.com/20581efa0a.js" crossorigin="anonymous"></script>
-<script src="./js/script.js"></script>
+<script src="../js/script.js"></script>
 </html>
