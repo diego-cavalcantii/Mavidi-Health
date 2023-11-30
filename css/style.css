@@ -89,6 +89,10 @@ footer span {
     color: red;
     font-family: 'Archivo', sans-serif;
 }
+
+footer p {
+    margin: 0 10px;
+}
 .footer-end {
     position: absolute;
     bottom: 0;
@@ -184,7 +188,6 @@ footer span {
     }
 
     footer {
-        position: relative;
         width: 100%;
         padding: 5px;
     }
@@ -232,8 +235,6 @@ footer span {
         display: none;
     }
     footer {
-        position: absolute;
-        bottom: 0;
         width: 100%;
         padding: 10px;
     }
