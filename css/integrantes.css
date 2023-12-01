@@ -27,7 +27,6 @@
    box-shadow: 1px 1px 3px 0px rgba(0, 0, 0, 0.5);
    border-radius: 20px;
 }
-
 .text-info p {
    margin: .5% 0;
    font-size: .9375rem;
@@ -76,6 +75,11 @@
    .text-info span {
       font-size: .75rem;
    }
+   .text-info a {
+      font-size: .75rem;
+      font-weight: 400;
+      color: black;
+   }
 }
 
 @media(min-width:1200px) {
@@ -107,4 +111,10 @@
    .text-info span {
       color: rgb(198, 0, 0);
    }
+   .text-info a {
+      font-size: .9375rem;
+      font-weight: 600;
+      color: black;
+   }
+   
 }
