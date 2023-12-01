@@ -14,7 +14,7 @@ body {
 }
 
 header {
-    padding: 10px 0;
+    padding: 1vh 0;
 }
 
 img {
@@ -24,7 +24,7 @@ img {
 p {
     color: #000;
     font-family: Inter;
-    font-size: 13px;
+    font-size: .8125rem;
     font-weight: 700;
 }
 
@@ -123,7 +123,6 @@ footer p {
         border: none;
         padding: 10% 0;
         width: 60px;
-        /* background-color: white; */
         box-shadow: 1px 1px 3px 0px rgba(0, 0, 0, 0.5);
         font-weight: 600;
         border-radius: 5px;
@@ -193,7 +192,7 @@ footer p {
     }
 
     footer p {
-        font-size: 9px;
+        font-size: .5625rem;
         font-weight: 400;
     }
 
@@ -239,11 +238,11 @@ footer p {
         padding: 10px;
     }
     footer p {
-        font-size: 12px;
+        font-size: .75rem;
         font-weight: 700;
     }
     footer h1,
     footer span {
-        font-size: 14px;
+        font-size: .875rem;
     }
 }

@@ -27,17 +27,9 @@
     gap: .15rem;
 }
 
-.box-blue {
+.box-gray {
     background-color: #e1e1e1;
-    /* border: 2px solid black; */
 }
-
-.box-green {
-    background-color: #e1e1e1;
-    /* border: 2px solid black; */
-}
-
-
 
 .img-responsivo {
     width: 30%;
@@ -57,11 +49,6 @@
 
 .img-responsivo p {
     text-align: center;
-}
-
-.botao {
-    width: 90%;
-    margin: 0 auto;
 }
 
 .box-macro {
@@ -113,13 +100,13 @@
 }
 
 .historico span {
-    font-size: 13px;
+    font-size: .8125rem;
     font-weight: 500;
 }
 
 .historico h1 {
     color: black;
-    font-size: 40px;
+    font-size: 2.5rem;
     text-align: center;
     font-weight: 900;
 }
@@ -149,7 +136,7 @@
 }
 
 .camera span {
-    font-size: 15px;
+    font-size: .9375rem;
     margin-left: 5px;
 }
 
@@ -202,7 +189,7 @@
         width: 350px;
     }
     p {
-        font-size: 11px;
+        font-size: .6875rem;
     }
 
     .container-flex {
@@ -226,7 +213,7 @@
         width: 100%;
     }
     .box-presc p {
-        font-size: 8px;
+        font-size: .5rem;
     }
     .historico {
         margin: 15% auto;
@@ -240,11 +227,11 @@
         margin: 40px auto 8px auto;
     }
     .historico-presc p {
-        font-size: 9px;
+        font-size: .5625rem;
         font-weight: 800;
     }
     .historico-presc span {
-        font-size: 9px;
+        font-size: .5625rem;
         font-weight: 500;
     }
     .box-pre {
@@ -256,7 +243,7 @@
         margin-bottom: 5px;
     }
     .camera .icon  {
-        font-size: 15px;
+        font-size: .9375rem;
         color: black;
     }
     .camera span {
@@ -287,7 +274,7 @@
     }
 
     p {
-        font-size: 13px;
+        font-size: .8125rem;
     }
 
     .container-flex {
@@ -313,7 +300,7 @@
     }
 
     .box-presc p {
-        font-size: 13px;
+        font-size: .8125rem;
     }
     .historico {
         margin: 5% auto;
@@ -323,11 +310,11 @@
         margin: 60px 0;
     }
     .historico-presc p {
-        font-size: 13px;
+        font-size: .8125rem;
         font-weight: 800;
     }
     .historico-presc span {
-        font-size: 13px;
+        font-size: .8125rem;
         font-weight: 500;
     }
 
@@ -340,7 +327,7 @@
         margin-bottom: 0;
     }
     .camera .icon  {
-        font-size: 23px;
+        font-size: 1.4375rem;
     }
     .footer-end {
         position: relative;

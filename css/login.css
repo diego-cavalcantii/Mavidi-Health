@@ -9,7 +9,7 @@
   .index-button {
     color: white;
     font-weight: 700;
-    font-size: 20px;
+    font-size: 1.25rem;
     border: none;
     border-radius: 8px;
     box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.40);
@@ -40,7 +40,7 @@
   }
 
   .gap-index i {
-    font-size: 60px;
+    font-size: 3.75rem;
   }
   
   .margin {
@@ -56,14 +56,6 @@
     text-align: center;
     border: 2px solid black;
     box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.40);
-  }
-  
-  .avatar {
-    margin: 0 auto 16px;
-    border-radius: 50%;
-    padding: 2px;
-    width: 120px;
-    height: 120px;
   }
   
   .login-form {
@@ -97,14 +89,6 @@
     cursor: pointer;
 }
 
-
-
-  .busca-paciente a {
-    text-decoration: none;
-    color: white;
-    font-weight: 700;
-  }
-  
   .textbox {
     width: 100%;
     position: relative;
@@ -118,11 +102,6 @@
     color: black;
   }
   
-  .login-form input,
-  .login-form button {
-    border-radius: 8px;
-  }
-  
   input:placeholder-shown{
     font-family: Inter;
     font-weight: 700;
@@ -132,6 +111,7 @@
   .login-form input {
     border: 2px solid black;
     padding: 0 20px 0 50px;
+    border-radius: 8px;
   }
   
   .login-form input:focus {
@@ -141,32 +121,7 @@
   .login-form input:focus ~ span {
     color: #157ae1;
   }
-  
-  .login-form button {
-    cursor: pointer;
-    border: 0;
-  }
 
-  .login-blue {
-    background-color: #157ae1;
-    color: white;
-    font-weight: 700;
-    font-size: 20px;
-  }
-
-  .login-orange {
-    background-color: #fba030;
-    color: white;
-    font-weight: 700;
-    font-size: 20px;
-  }
-
-  .login-form a {
-    font-weight: 700;
-    text-decoration: none;
-    color: #f9f9f9;
-  }
-   
   .icon {
     display: block;
     padding: 2%;
@@ -185,14 +140,14 @@
       flex-direction: column;
     }
     .login-form a {
-      font-size: 14px;
+      font-size: .875rem;
     }
     .container-login {
       width: 75%;
       height: 80vh;
     }
     .login-form input {
-      font-size: 14px;
+      font-size: .875rem;
     }
     .login-form input,
     .login-form button {
@@ -219,7 +174,7 @@
       height: 60vh;
     }
     .login-form input {
-      font-size: 18px;
+      font-size: 1.125rem;
     }
     .login-form input,
     .login-form button {
