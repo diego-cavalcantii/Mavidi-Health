@@ -52,5 +52,18 @@
         <p>Vitor de Melo RM-553483</p>
     </footer>
     <script src="https://kit.fontawesome.com/20581efa0a.js" crossorigin="anonymous"></script>
+    <script>
+        window.watsonAssistantChatOptions = {
+          integrationID: "72f4d008-737b-4dfc-b723-936b0bc1869d", // The ID of this integration.
+          region: "au-syd", // The region your integration is hosted in.
+          serviceInstanceID: "97bfd256-5f9e-4fee-a71f-2d39ce4ceca7", // The ID of your service instance.
+          onLoad: async (instance) => { await instance.render(); }
+        };
+        setTimeout(function(){
+          const t=document.createElement('script');
+          t.src="https://web-chat.global.assistant.watson.appdomain.cloud/versions/" + (window.watsonAssistantChatOptions.clientVersion || 'latest') + "/WatsonAssistantChatEntry.js";
+          document.head.appendChild(t);
+        });
+      </script>
 </body>
 </html>
