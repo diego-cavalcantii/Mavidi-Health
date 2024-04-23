@@ -1,9 +1,45 @@
-PROJETO QUE VISA INOVAR NA ÁREA DA SAÚDE
+# Portal de Saúde: Inovação na Área da Saúde 🩺
 
-Foi criado um portal com dois caminhos, Médico e Paciente.
+O Portal de Saúde é um projeto inovador que visa melhorar a comunicação e o gerenciamento de informações entre médicos e pacientes. Desenvolvido com HTML, CSS e JavaScript, este portal oferece dois caminhos distintos para Médico e Paciente, centralizando o histórico de consultas, prescrições de medicamentos e descrições detalhadas das consultas.
 
-O portal tem como objetivo ser um ponto central onde serão guardadas o histórico de consultas do paciente, os remédios que foram receitados e a descrições das consultas, visando um atendimento mais preciso da parte do médico. 
+## 🎯 Objetivos
 
-O paciente tera mais facilidade podendo acompanhar facilmente o que lhe foi receitado e a descroição de como ocorreu a consulta. 
+- Centralizar o histórico de consultas do paciente
+- Armazenar informações sobre medicamentos receitados
+- Facilitar o acompanhamento e a compreensão das consultas para o paciente
+- Oferecer um espaço para arquivamento de exames antigos
 
-O paciente também podera arquivar seus exames antigos para que não seja mais um problema ter que guarda um amontoado de exames ou receitas.
+## 🛠️ Tecnologias Utilizadas
+
+- HTML
+- CSS
+- JavaScript
+
+## 🌐 Funcionalidades
+
+### Para Médicos
+
+- Visualizar histórico de consultas dos pacientes
+- Adicionar novas consultas e prescrições de medicamentos
+
+### Para Pacientes
+
+- Acompanhar o histórico de consultas
+- Visualizar medicamentos prescritos
+- Arquivar exames antigos
+
+- ## 🚀 Como Executar
+
+1. **Clone o repositório:**
+
+    ```bash
+    git clone https://github.com/seu-usuario/portal-saude.git
+    ```
+
+2. **Acesse o diretório do projeto:**
+
+    ```bash
+    cd portal-saude
+    ```
+
+3. **Abra o arquivo `index.html` em seu navegador.**
